@@ -3,7 +3,7 @@ fn main() {
     sub();
     multi();
     div();
-    
+    rem();
 }
 
 fn add() {
@@ -34,4 +34,11 @@ fn div(){
     let c = a/b as f64;
     println!("Division of {} and {} is {}", a, b, c);
 
+}
+
+fn rem(){
+    let a = 1343;
+    let b = 10;
+    let c = a%b;
+    println!("Remainder of {} and {} is {}", a, b, c);
 }
