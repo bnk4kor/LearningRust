@@ -15,7 +15,7 @@ This repository documents my journey of learning the Rust programming language. 
 To get started with Rust, you can follow these steps:
 
 1. Install Rust by following the instructions in the official [Rust documentation](https://www.rust-lang.org/tools/install).
-2. Clone this repository: `git clone https://github.com/your-username/LearningRust.git`
+2. Clone this repository: `git clone https://github.com/bnk4kor/LearningRust.git`
 3. Explore the code examples and projects in the repository.
 4. Dive into the Rust documentation and tutorials to deepen your understanding.
 
