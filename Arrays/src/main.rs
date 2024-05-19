@@ -1,5 +1,10 @@
+
+
 mod TwoSum;
 mod Anagram;
+mod Find;
+mod Freq;
+mod quicksort;
 
 
 fn main() {
@@ -11,7 +16,7 @@ fn main() {
     let mut arr4: [f32; 5] = [0.0; 5];
     for i in arr.iter() {
         let x = ((arr[a] as f32) + arr2[a] + 1.6) as f32;
-        println!("{}", x);
+        println!("{}{}", x,i);
 
         arr4[a] = x;
         a += 1;
@@ -25,4 +30,10 @@ fn main() {
 
     TwoSum::sum1();
     Anagram::findAnagram();
+    Find::theMax();
+    Find::theMin();
+
+    quicksort::quicksort();
+
+    
 }
